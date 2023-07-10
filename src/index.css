@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,
+body,
+#root, /* for create-react-app */
+#__next /* for Next.js */ {
+  height: 100%;
+}
+
+html, body {
+  background-color: hsl(218deg 19% 18%);
+}
+
+#root {
+  background-color: hsl(218deg 19% 23%);
+}

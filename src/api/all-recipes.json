@@ -1,0 +1,376 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Chocolate Chip Cookies",
+        "description": "Delicious homemade chocolate chip cookies with a perfect balance of chewiness and chocolate goodness.",
+        "image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 2,
+        "name": "Creamy Tomato Basil Pasta",
+        "description": "A comforting and flavorful pasta dish made with fresh tomatoes, basil, and creamy sauce.",
+        "image": "https://images.pexels.com/photos/7837671/pexels-photo-7837671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "saved": false
+    },
+    {
+        "id": 3,
+        "name": "Grilled Lemon Herb Chicken",
+        "description": "Juicy and tender chicken marinated in a zesty lemon herb sauce and grilled to perfection.",
+        "image": "https://images.pexels.com/photos/6210947/pexels-photo-6210947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "saved": false
+    },
+    {
+        "id": 4,
+        "name": "Fresh Caprese Salad",
+        "description": "A light and refreshing salad made with ripe tomatoes, fresh mozzarella, and fragrant basil leaves.",
+        "image": "https://images.pexels.com/photos/8177410/pexels-photo-8177410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 5,
+        "name": "Spicy Thai Red Curry",
+        "description": "A flavorful and aromatic Thai curry with a perfect balance of heat and exotic spices.",
+        "image": "https://images.pexels.com/photos/15797984/pexels-photo-15797984/free-photo-of-panaeng-curry-with-pork-sliced-m-in-red-curry-paste-and-coconut-milk-in-a-bowl-on-the-set-of-group-plates-thai-food-top-view-vertical-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.6,
+        "saved": false,
+        "imageOffset": "80%"
+    },
+    {
+        "id": 6,
+        "name": "Mouthwatering Beef Burgers",
+        "description": "Juicy and flavorful beef burgers topped with melted cheese, crisp lettuce, and tangy pickles.",
+        "image": "https://images.pexels.com/photos/8162589/pexels-photo-8162589.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 7,
+        "name": "Homestyle Chicken Pot Pie",
+        "description": "A classic comfort food dish with tender chicken, vegetables, and a golden flaky crust.",
+        "image": "https://images.pexels.com/photos/16406502/pexels-photo-16406502/free-photo-of-envelope-chicken-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.3,
+        "saved": false,
+        "imageOffset": "30%"
+    },
+    {
+        "id": 8,
+        "name": "Refreshing Watermelon Lemonade",
+        "description": "A refreshing and thirst-quenching drink made with fresh watermelon and tangy lemon juice.",
+        "image": "https://images.pexels.com/photos/6174875/pexels-photo-6174875.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.9,
+        "saved": false,
+        "imageOffset": "50%"
+    },
+    {
+        "id": 9,
+        "name": "Savory Garlic Butter Shrimp",
+        "description": "Tender shrimp cooked in a rich garlic butter sauce with a hint of lemon and herbs.",
+        "image": "https://images.pexels.com/photos/7538076/pexels-photo-7538076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 10,
+        "name": "Decadent Chocolate Mousse",
+        "description": "Indulge in this velvety smooth and rich chocolate mousse that will satisfy your sweet cravings.",
+        "image": "https://images.pexels.com/photos/3026810/pexels-photo-3026810.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 11,
+        "name": "Hearty Vegetable Soup",
+        "description": "A comforting and nutritious soup packed with a variety of fresh vegetables and aromatic herbs.",
+        "image": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 12,
+        "name": "Crispy Baked Chicken Tenders",
+        "description": "Deliciously crispy chicken tenders coated with a seasoned breadcrumb mixture and baked to perfection.",
+        "image": "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 13,
+        "name": "Zesty Lemon Garlic Salmon",
+        "description": "Flavorful salmon fillets marinated in a tangy lemon garlic sauce and grilled or baked to flaky perfection.",
+        "image": "https://images.pexels.com/photos/2374946/pexels-photo-2374946.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 14,
+        "name": "Homemade Margherita Pizza",
+        "description": "Authentic Italian-style pizza topped with fresh mozzarella, ripe tomatoes, and fragrant basil leaves.",
+        "image": "https://images.pexels.com/photos/6605220/pexels-photo-6605220.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 15,
+        "name": "Creamy Garlic Parmesan Pasta",
+        "description": "A rich and indulgent pasta dish with a creamy garlic Parmesan sauce that will leave you craving for more.",
+        "image": "https://images.pexels.com/photos/2703468/pexels-photo-2703468.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 16,
+        "name": "Homestyle Beef Stew",
+        "description": "A hearty and comforting beef stew with tender chunks of meat, vegetables, and flavorful broth.",
+        "image": "https://images.pexels.com/photos/8952367/pexels-photo-8952367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 17,
+        "name": "Fruit and Yogurt Parfait",
+        "description": "A refreshing and nutritious parfait made with layers of fresh fruits, creamy yogurt, and crunchy granola.",
+        "image": "https://images.pexels.com/photos/4696280/pexels-photo-4696280.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false,
+        "imageOffset": "65%"
+    },
+    {
+        "id": 18,
+        "name": "Stuffed Bell Peppers",
+        "description": "Colorful bell peppers filled with a savory mixture of ground meat, rice, and aromatic spices.",
+        "image": "https://images.pexels.com/photos/15820587/pexels-photo-15820587/free-photo-of-food-dinner-lunch-pasta.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 19,
+        "name": "Fluffy Pancakes with Maple Syrup",
+        "description": "Light and fluffy pancakes served with a generous drizzle of sweet and sticky maple syrup.",
+        "image": "https://images.pexels.com/photos/718739/pexels-photo-718739.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.8,
+        "saved": false
+    },
+    {
+        "id": 20,
+        "name": "Savory Spinach and Feta Stuffed Chicken Breast",
+        "description": "Tender chicken breast stuffed with a delicious mixture of spinach, feta cheese, and herbs.",
+        "image": "https://images.pexels.com/photos/6358977/pexels-photo-6358977.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 21,
+        "name": "Classic Beef Lasagna",
+        "description": "Layers of perfectly cooked pasta, savory beef sauce, and creamy cheese, baked to gooey perfection.",
+        "image": "https://images.pexels.com/photos/4079520/pexels-photo-4079520.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 22,
+        "name": "Homemade Guacamole",
+        "description": "Creamy and flavorful guacamole made with ripe avocados, tangy lime juice, and aromatic herbs and spices.",
+        "image": "https://images.pexels.com/photos/5737580/pexels-photo-5737580.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 23,
+        "name": "Crispy Fried Chicken",
+        "description": "Golden and crispy fried chicken with a deliciously seasoned coating that's perfect for any occasion.",
+        "image": "https://images.pexels.com/photos/2232433/pexels-photo-2232433.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 24,
+        "name": "Mediterranean Quinoa Salad",
+        "description": "A light and refreshing salad made with fluffy quinoa, fresh vegetables, and tangy Mediterranean flavors.",
+        "image": "https://images.pexels.com/photos/3872373/pexels-photo-3872373.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 25,
+        "name": "Creamy Mushroom Risotto",
+        "description": "A rich and creamy Italian rice dish cooked with flavorful mushrooms, Parmesan cheese, and herbs.",
+        "image": "https://images.pexels.com/photos/6406460/pexels-photo-6406460.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 26,
+        "name": "Refreshing Cucumber Mint Lemonade",
+        "description": "A refreshing and cooling drink made with crisp cucumbers, fresh mint, and tangy lemon juice.",
+        "image": "https://images.pexels.com/photos/5335918/pexels-photo-5335918.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false,
+        "imageOffset": "70%"
+    },
+    {
+        "id": 27,
+        "name": "BBQ Pulled Pork Sandwiches",
+        "description": "Slow-cooked and tender pulled pork smothered in tangy barbecue sauce, served on a soft bun.",
+        "image": "https://images.pexels.com/photos/7181419/pexels-photo-7181419.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 28,
+        "name": "Homemade Sushi Rolls",
+        "description": "Create your own sushi rolls with fresh fish, crunchy vegetables, and perfectly seasoned sushi rice.",
+        "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 29,
+        "name": "Baked Garlic Parmesan Salmon",
+        "description": "Tender salmon fillets baked with a flavorful garlic Parmesan crust that's both easy and delicious.",
+        "image": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 30,
+        "name": "Homemade Apple Pie",
+        "description": "A classic dessert made with sweet and tangy apples, warm spices, and a flaky buttery crust.",
+        "image": "https://images.pexels.com/photos/103888/pexels-photo-103888.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.8,
+        "saved": false
+    },
+    {
+        "id": 31,
+        "name": "Spicy Black Bean Tacos",
+        "description": "Flavorful and spicy black bean tacos packed with protein and topped with fresh ingredients and zesty sauce.",
+        "image": "https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 32,
+        "name": "Creamy Chicken Alfredo",
+        "description": "A comforting pasta dish with tender chicken, creamy Alfredo sauce, and a sprinkle of Parmesan cheese.",
+        "image": "https://images.pexels.com/photos/11220209/pexels-photo-11220209.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 33,
+        "name": "Homemade Beef Tacos",
+        "description": "Delicious and satisfying beef tacos loaded with seasoned ground beef, crunchy lettuce, and tangy salsa.",
+        "image": "https://images.pexels.com/photos/8448079/pexels-photo-8448079.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 35,
+        "name": "Homemade Chicken Noodle Soup",
+        "description": "A comforting and soul-warming soup filled with tender chicken, vegetables, and slurpy noodles.",
+        "image": "https://images.pexels.com/photos/4210858/pexels-photo-4210858.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 36,
+        "name": "Cheesy Baked Ziti",
+        "description": "Baked ziti with layers of pasta, rich tomato sauce, and a generous amount of melted cheese.",
+        "image": "https://images.pexels.com/photos/16499633/pexels-photo-16499633/free-photo-of-muffins-on-a-cakestand.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 37,
+        "name": "Greek Salad with Feta Cheese",
+        "description": "A refreshing and tangy salad made with crisp lettuce, juicy tomatoes, cucumbers, olives, and creamy feta cheese.",
+        "image": "https://images.pexels.com/photos/724664/pexels-photo-724664.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 38,
+        "name": "Homemade Pesto Pasta",
+        "description": "A vibrant and flavorful pasta dish made with fresh basil pesto, pine nuts, and Parmesan cheese.",
+        "image": "https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 39,
+        "name": "Sticky Teriyaki Chicken",
+        "description": "Tender and sticky chicken glazed with a sweet and savory teriyaki sauce, served with steamed rice.",
+        "image": "https://images.pexels.com/photos/11787138/pexels-photo-11787138.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.8,
+        "saved": false,
+        "imageOffset": "85%"
+    },
+    {
+        "id": 40,
+        "name": "Homemade Blueberry Muffins",
+        "description": "Moist and fluffy muffins bursting with juicy blueberries, perfect for breakfast or a sweet treat.",
+        "image": "https://images.pexels.com/photos/90609/pexels-photo-90609.png?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.7,
+        "saved": false
+    },
+    {
+        "id": 41,
+        "name": "Creamy Garlic Butter Pasta",
+        "description": "A simple yet indulgent pasta dish with a creamy garlic butter sauce and Parmesan cheese.",
+        "image": "https://images.pexels.com/photos/1256875/pexels-photo-1256875.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 42,
+        "name": "Homemade Beef Chili",
+        "description": "Hearty and flavorful beef chili with tender chunks of meat, beans, tomatoes, and a blend of spices.",
+        "image": "https://images.pexels.com/photos/8321980/pexels-photo-8321980.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 43,
+        "name": "Fresh Strawberry Shortcake",
+        "description": "A classic dessert made with sweet strawberries, fluffy cake, and whipped cream for a delightful treat.",
+        "image": "https://images.pexels.com/photos/3752104/pexels-photo-3752104.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.6,
+        "saved": false
+    },
+    {
+        "id": 44,
+        "name": "Homemade Vegetable Spring Rolls",
+        "description": "Crispy and delicious spring rolls filled with a colorful assortment of fresh vegetables and served with a dipping sauce.",
+        "image": "https://images.pexels.com/photos/4001867/pexels-photo-4001867.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.4,
+        "saved": false
+    },
+    {
+        "id": 45,
+        "name": "Lemon Garlic Roasted Chicken",
+        "description": "Juicy and flavorful roasted chicken infused with tangy lemon and fragrant garlic.",
+        "image": "https://images.pexels.com/photos/6210933/pexels-photo-6210933.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.3,
+        "saved": false
+    },
+    {
+        "id": 46,
+        "name": "Mouthwatering BBQ Ribs",
+        "description": "Tender and succulent ribs slow-cooked to perfection and slathered in a finger-licking barbecue sauce.",
+        "image": "https://images.pexels.com/photos/9650087/pexels-photo-9650087.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.5,
+        "saved": false
+    },
+    {
+        "id": 47,
+        "name": "Homemade Vegetable Pizza",
+        "description": "Delicious pizza topped with a variety of fresh vegetables, gooey cheese, and aromatic herbs.",
+        "image": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "rating": 4.8,
+        "saved": false
+    }
+]

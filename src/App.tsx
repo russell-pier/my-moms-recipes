@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './features/home/page';
+import Saved from './features/saved/page';
+import Search from './features/search/page';
+import recipesJson from './api/all-recipes.json';
+import { useDispatch, useSelector } from 'react-redux';
+import { setRecipes } from './redux/recipes.slice';
+import { RootState } from './redux/store';
 
 function App() {
+
+  const dispatch = useDispatch();
+  const recipes = useSelector((state: RootState) => state.recipes.recipes);
+
+  useEffect(() => {
+    if (dispatch && (!recipes || recipes.length === 0)) {
+      dispatch(setRecipes(recipesJson));
+    }
+  }, [dispatch, recipes]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="search" element={<Search />} />
+      <Route path="saved" element={<Saved />} />
+   </Routes>
   );
 }
 
 export default App;
+
